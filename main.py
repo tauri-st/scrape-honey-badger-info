@@ -16,8 +16,12 @@ for header in h2:
 
 links = honey_badger_soup.find_all("a")
 
-print(links[0:4])
+#print first 5
+print(links[:5])
 
 images = honey_badger_soup.find_all("img")
 
 print(len(images))
+
+#print last 4
+print(images[19:])
