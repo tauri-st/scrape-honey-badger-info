@@ -10,3 +10,7 @@ h2 = honey_badger_soup.find_all("h2")
 
 #how many h2 elements there are
 print(len(h2))
+
+for header in h2:
+  print(header)
+
