@@ -16,3 +16,7 @@ for header in h2:
 
 links = honey_badger_soup.find_all("a")
 
+print(links[0:4])
+
+
+
