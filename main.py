@@ -14,3 +14,5 @@ print(len(h2))
 for header in h2:
   print(header)
 
+links = honey_badger_soup.find_all("a")
+
